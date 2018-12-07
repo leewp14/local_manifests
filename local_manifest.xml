@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remove-project name="LineageOS/android_frameworks_base" />
+
+<project name="leewp14/android_frameworks_base" remote="github" revision="cm-11.0" />
+
 <project name="leewp14/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-11.0" />
 <project name="leewp14/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-11.0" />
 <project name="leewp14/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-11.0" />
