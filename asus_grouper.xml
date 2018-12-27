@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- https://github.com/temasek/manifests/blob/cm-11.0/local_manifests/roomservice.xml -->
+
 <project name="leewp14/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-11.0" />
 <project name="leewp14/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-11.0" />
 
