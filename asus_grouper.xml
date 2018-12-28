@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- https://github.com/temasek/manifests/blob/cm-11.0/local_manifests/roomservice.xml -->
+<!-- https://github.com/aperomsik/lineageos_local_manifests/blob/cm-14.1/grouper.xml -->
 
-<project name="leewp14/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-11.0" />
-<project name="leewp14/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-11.0" />
+<project name="leewp14/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-14.1" />
+<project name="leewp14/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-14.1" />
 
-<project name="leewp14/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-11.0" />
-<project name="leewp14/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-11.0" />
-<project name="leewp14/proprietary_vendor_elan" path="vendor/elan" remote="github" revision="cm-11.0" />
-<project name="leewp14/proprietary_vendor_invensense" path="vendor/invensense" remote="github" revision="cm-11.0" />
-<project name="leewp14/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-11.0" />
-<project name="leewp14/proprietary_vendor_nxp" path="vendor/nxp" remote="github" revision="cm-11.0" />
-<project name="leewp14/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-11.0" />
+<project name="leewp14/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
+<project name="leewp14/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-14.1" />
+<project name="leewp14/proprietary_vendor_elan" path="vendor/elan" remote="github" revision="cm-14.1" />
+<project name="leewp14/proprietary_vendor_invensense" path="vendor/invensense" remote="github" revision="cm-14.1" />
+<project name="leewp14/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-14.1" />
+
+<remove-project name="LineageOS/android_external_libnfc-nxp" />
+<project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="cm-14.1" />
 
 </manifest>
