@@ -16,4 +16,7 @@
 <remove-project name="LineageOS/android_external_libnfc-nxp" />
 <project name="leewp14/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="cm-14.1" />
 
+<remove-project name="LineageOS/android_packages_apps_Nfc" />
+<project name="Unlegacy-Android/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="aosp-8.0" />
+
 </manifest>
