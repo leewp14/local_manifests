@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- https://github.com/aperomsik/lineageos_local_manifests/blob/cm-14.1/grouper.xml -->
+<!-- https://github.com/AndDiSa/platform_manifest-Grouper-AOSP/blob/ads-7.1.0/default.xml -->
 
 <project name="leewp14/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="dot-n" />
-<project name="leewp14/android_kernel_nvidia_tegra3" path="kernel/nvidia/tegra3" remote="github" revision="stable" />
-<project name="leewp14/android_hardware_nvidia_tegra3" path="hardware/nvidia/tegra3" remote="github" revision="stable" />
+<project name="leewp14/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-14.1" />
 
 <project name="leewp14/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
 <project name="leewp14/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-14.1" />
+<project name="leewp14/proprietary_vendor_elan" path="vendor/elan" remote="github" revision="cm-14.1" />
 <project name="leewp14/proprietary_vendor_invensense" path="vendor/invensense" remote="github" revision="cm-14.1" />
-<!-- <project name="leewp14/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-14.1" /> -->
+<project name="leewp14/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-14.1" />
 <project name="leewp14/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-14.1" />
 
-<remove-project name="android_frameworks_base" />
-<project name="leewp14/android_frameworks_base" path="frameworks/base" remote="github" revision="dot-n" />
-<remove-project name="LineageOS/android_packages_apps_Nfc" />
-<project name="leewp14/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="cm-14.1" />
 <remove-project name="LineageOS/android_external_libnfc-nxp" />
 <project name="leewp14/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="cm-14.1" />
 
