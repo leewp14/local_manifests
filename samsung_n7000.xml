@@ -10,4 +10,6 @@
 
 <project name="leewp14/cm-proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
 
+<project path="external/stlport" name="LineageOS/android_external_stlport"/>
+
 </manifest>
