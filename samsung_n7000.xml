@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- https://drive.google.com/file/d/1AAw285ZkmpEcqD4VXWB67nxo7nDJ2g8x/view -->
+<!-- https://gitlab.com/getawaycar/isolatedworld/RR/local_manifests/blob/master/roomservice.xml -->
+
+<project name="leewp14/cm-android_device_samsung_n7000" path="device/samsung/n7000" remote="github" revision="rr-o" />
+<project name="leewp14/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="rr-o" />
+<project name="rINanDO/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
+<project name="leewp14/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-15.1" />
+
+<project name="bauner/cm-proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-15.1" />
+
+<remove-project name="LineageOS/android_bionic" />
+<project name="rINanDO/android_bionic" path="bionic" remote="github" revision="lineage-15.1" />
+<remove-project name="LineageOS/android_frameworks_av" />
+<project name="rINanDO/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-15.1" />
+<remove-project name="ResurrectionRemix/android_frameworks_base" />
+<project name="leewp14/android_frameworks_base-1" path="frameworks/base" remote="github" revision="oreo" />
+<remove-project name="LineageOS/android_hardware_interfaces" />
+<project name="rINanDO/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-15.1" />
+<remove-project name="ResurrectionRemix/android_vendor_resurrection" />
+<project name="leewp14/android_vendor_resurrection" path="vendor/rr" remote="github" revision="oreo" />
+<remove-project name="ResurrectionRemix/frameworks_native" />
+<project name="leewp14/frameworks_native" path="frameworks/native" remote="github" revision="oreo" />
+
+</manifest>
