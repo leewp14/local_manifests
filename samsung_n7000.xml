@@ -5,7 +5,7 @@
 <!-- https://gitlab.com/getawaycar/isolatedworld/RR/local_manifests/blob/master/roomservice.xml -->
 
 <project name="leewp14/cm-android_device_samsung_n7000" path="device/samsung/n7000" remote="github" revision="rr-o" />
-<project name="leewp14/cm-android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-15.1" />
+<project name="bauner/cm-android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-15.1" />
 <project name="rINanDO/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
 <project name="leewp14/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-15.1" />
 
