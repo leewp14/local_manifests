@@ -24,4 +24,6 @@
 <remove-project name="ResurrectionRemix/frameworks_native" />
 <project name="leewp14/frameworks_native" path="frameworks/native" remote="github" revision="oreo" />
 
+<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1"/>
+
 </manifest>
