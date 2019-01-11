@@ -25,5 +25,7 @@
 <project name="leewp14/frameworks_native" path="frameworks/native" remote="github" revision="oreo" />
 <remove-project name="ResurrectionRemix/system_core" />
 <project name="leewp14/system_core" path="system/core" remote="github" revision="oreo" />
+<remove-project name="platform/system/connectivity/wificond" />
+<project name="rINanDO/android_system_connectivity_wificond" path="system/connectivity/wificond" remote="github" revision="lineage-15.1" />
 
 </manifest>
