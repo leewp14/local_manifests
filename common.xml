@@ -12,7 +12,7 @@
 <remove-project name="android_vendor_resurrection" />
 <project name="leewp14/rr-android_vendor_resurrection" path="vendor/rr" remote="github" revision="pie" />
 <remove-project name="LineageOS/android_frameworks_native" />
-<project name="rINanDO/rr-frameworks_native" path="frameworks/native" remote="github" revision="pie" />
+<project name="rINanDO/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-16.0" />
 <remove-project name="android_system_core" />
 <project name="leewp14/rr-android_system_core" path="system/core" remote="github" revision="pie" />
 
