@@ -5,17 +5,15 @@
 <project name="rINanDO/android_bionic" path="bionic" remote="github" revision="lineage-16.0" />
 <remove-project name="frameworks_av" />
 <project name="leewp14/rr-frameworks_av" path="frameworks/av" remote="github" revision="pie" />
-<remove-project name="ResurrectionRemix/android_frameworks_base" />
+<remove-project name="android_frameworks_base" />
 <project name="leewp14/rr-android_frameworks_base" path="frameworks/base" remote="github" revision="pie" />
-<remove-project name="LineageOS/android_hardware_interfaces" />
-<project name="rINanDO/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-16.0" />
-<remove-project name="ResurrectionRemix/android_vendor_resurrection" />
+<!-- <remove-project name="LineageOS/android_hardware_interfaces" />
+<project name="rINanDO/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-16.0" /> -->
+<remove-project name="android_vendor_resurrection" />
 <project name="leewp14/rr-android_vendor_resurrection" path="vendor/rr" remote="github" revision="pie" />
-<remove-project name="ResurrectionRemix/frameworks_native" />
-<project name="leewp14/rr-frameworks_native" path="frameworks/native" remote="github" revision="pie" />
-<remove-project name="ResurrectionRemix/system_core" />
-<project name="leewp14/rr-system_core" path="system/core" remote="github" revision="pie" />
-<remove-project name="platform/system/connectivity/wificond" />
-<project name="rINanDO/android_system_connectivity_wificond" path="system/connectivity/wificond" remote="github" revision="lineage-16.0" />
+<remove-project name="LineageOS/android_frameworks_native" />
+<project name="rINanDO/rr-frameworks_native" path="frameworks/native" remote="github" revision="pie" />
+<remove-project name="android_system_core" />
+<project name="leewp14/rr-android_system_core" path="system/core" remote="github" revision="pie" />
 
 </manifest>
