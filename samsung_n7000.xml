@@ -8,7 +8,6 @@
 <project name="leewp14/cm-android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-16.0" />
 <project name="leewp14/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
 <project name="leewp14/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
-<project name="leewp14/android_kernel_samsung_tw_n7000" path="kernel/samsung/tw_n7000" remote="github" revision="lineage-16.0" />
 
 <project name="bauner/cm-proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
 
