@@ -7,9 +7,6 @@
 <remove-project name="LineageOS/android_bootable_recovery" />
 <project name="rINanDO/android_bootable_recovery" path="bootable/recovery" remote="github" revision="lineage-16.0-twrp" />
 
-<remove-project name="LineageOS/android_build" />
-<project name="rINanDO/android_build" path="build" remote="github" revision="lineage-16.0" />
-
 <remove-project name="LineageOS/android_device_lineage_sepolicy" />
 <project name="rINanDO/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-16.0" />
 
@@ -32,6 +29,6 @@
 <project name="rINanDO/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" />
 
 <remove-project name="LineageOS/android_system_core" />
-<project name="rINanDO/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
+<project name="leewp14/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
 
 </manifest>
