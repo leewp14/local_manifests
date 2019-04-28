@@ -22,8 +22,8 @@
 <!-- <remove-project name="LineageOS/android_hardware_interfaces" />
 <project name="rINanDO/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-16.0" /> -->
 
-<remove-project name="LineageOS/android_system_vold" />
-<project name="rINanDO/android_system_vold" path="system/vold" remote="github" revision="lineage-16.0" />
+<!-- <remove-project name="LineageOS/android_system_vold" /> -->
+<!-- <project name="rINanDO/android_system_vold" path="system/vold" remote="github" revision="lineage-16.0" /> -->
 
 <remove-project name="LineageOS/android_vendor_lineage" />
 <project name="rINanDO/android_vendor_lineage" path="vendor/lineage" remote="github" revision="lineage-16.0" />
