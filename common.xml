@@ -5,7 +5,8 @@
 <project name="rINanDO/android_bionic" path="bionic" remote="github" revision="lineage-16.0" />
 
 <remove-project name="LineageOS/android_bootable_recovery" />
-<project name="leewp14/android_bootable_recovery" path="bootable/recovery" remote="github" revision="lineage-16.0" />
+<project name="leewp14/android_bootable_recovery" path="bootable/recovery" remote="github" revision="lineage-16.0" /> -->
+<!-- <project name="rINanDO/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="lineage-16.0-twrp" /> -->
 
 <remove-project name="LineageOS/android_device_lineage_sepolicy" />
 <project name="rINanDO/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-16.0" />
@@ -22,9 +23,6 @@
 <!-- <remove-project name="LineageOS/android_hardware_interfaces" />
 <project name="rINanDO/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-16.0" /> -->
 
-<!-- <remove-project name="LineageOS/android_system_vold" /> -->
-<!-- <project name="rINanDO/android_system_vold" path="system/vold" remote="github" revision="lineage-16.0" /> -->
-
 <!-- <remove-project name="LineageOS/android_packages_resources_devicesettings" /> -->
 <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
@@ -38,6 +36,6 @@
 <project name="leewp14/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
 
 <remove-project name="LineageOS/android_system_vold" />
-<project name="rINanDO/android_system_vold" path="system/vold" remote="github" revision="lineage-16.0" />
+<project name="leewp14/android_system_vold" path="system/vold" remote="github" revision="lineage-16.0" />
 
 </manifest>
