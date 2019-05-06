@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remove-project name="LineageOS/android_bionic" />
-<project name="rINanDO/android_bionic" path="bionic" remote="github" revision="lineage-16.0" />
-
 <remove-project name="LineageOS/android_bootable_recovery" />
 <project name="leewp14/android_bootable_recovery" path="bootable/recovery" remote="github" revision="lineage-16.0" /> -->
 <!-- <project name="rINanDO/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="lineage-16.0-twrp" /> -->
@@ -18,7 +15,7 @@
 <project name="rINanDO/android_frameworks_av" path="frameworks/av" remote="github" revision="lineage-16.0" />
 
 <remove-project name="LineageOS/android_frameworks_native" />
-<project name="rINanDO/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-16.0" />
+<project name="leewp14/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-16.0" />
 
 <!-- <remove-project name="LineageOS/android_hardware_interfaces" />
 <project name="rINanDO/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-16.0" /> -->
