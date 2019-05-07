@@ -11,9 +11,6 @@
 <!-- <remove-project name="LineageOS/android_external_busybox" /> -->
 <!-- <project name="rINanDO/android_external_busybox" path="external/busybox" remote="github" revision="lineage-16.0" /> -->
 
-<remove-project name="LineageOS/android_frameworks_native" />
-<project name="leewp14/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-16.0" />
-
 <!-- <remove-project name="LineageOS/android_hardware_interfaces" />
 <project name="rINanDO/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-16.0" /> -->
 
