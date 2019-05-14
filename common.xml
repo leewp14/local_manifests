@@ -16,7 +16,4 @@
 <remove-project name="LineageOS/android_system_core" />
 <project name="leewp14/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
 
-<remove-project name="LineageOS/android_system_vold" />
-<project name="leewp14/android_system_vold" path="system/vold" remote="github" revision="lineage-16.0" />
-
 </manifest>
