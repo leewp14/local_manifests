@@ -16,10 +16,4 @@
 <remove-project name="LineageOS/android_system_core" />
 <project name="leewp14/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
 
-<project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="android-9.0" />
-
-<project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="android-8.1" />
-
-<project name="CarbonROM/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cr-7.0" />
-
 </manifest>
