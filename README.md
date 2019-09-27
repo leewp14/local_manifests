@@ -1,4 +1,6 @@
 local_manifests
 ===============
 
-Local manifests for Motorola TI-OMAP4 projects
+Local manifests (lineage-16.0) for:-
+- n7000
+- ~~honami~~
