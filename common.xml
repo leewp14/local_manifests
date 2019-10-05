@@ -2,7 +2,7 @@
 <manifest>
 
 <remove-project name="LineageOS/android_bootable_recovery" />
-<project name="leewp14/android_bootable_recovery" path="bootable/recovery" remote="github" revision="lineage-16.0" /> -->
+<project name="leewp14/android_bootable_recovery" path="bootable/recovery" remote="github" revision="lineage-16.0" />
 
 <!-- <remove-project name="LineageOS/android_packages_resources_devicesettings" /> -->
 <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
