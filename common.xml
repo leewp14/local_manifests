@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remove-project name="LineageOS/android_build_soong" />
+<project name="leewp14/android_build_soong" path="build/soong" remote="github" revision="lineage-16.0" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+</project>
+
 <remove-project name="LineageOS/android_bootable_recovery" />
 <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-9.0" />
-<project name="leewp14/android_external_busybox" path="external/busybox" remote="github" revision="android-9.0" />
+<project name="omnirom/android_external_busybox" path="external/busybox" remote="github" revision="android-9.0" />
 
 <!-- <remove-project name="LineageOS/android_packages_resources_devicesettings" /> -->
 <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
