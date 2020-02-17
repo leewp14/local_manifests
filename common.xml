@@ -4,6 +4,12 @@
 <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
 <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" />
 
+<remove-project name="LineageOS/android_build_soong" />
+<project name="leewp14/android_build_soong" path="build/soong" remote="github" revision="lineage-16.0" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+</project>
+
 <remove-project name="LineageOS/android_system_core" />
 <project name="leewp14/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
 
