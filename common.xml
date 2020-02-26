@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remove-project name="LineageOS/android_packages_apps_Backgrounds" />
-<project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" />
-
-<remove-project name="LineageOS/android_system_core" />
-<project name="leewp14/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
-
-<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+<remove-project name="android_system_core" />
+<project name="leewp14/android_system_core" path="system/core" remote="github" revision="dot-p" />
 
 </manifest>
