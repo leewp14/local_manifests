@@ -10,4 +10,7 @@
 <remove-project name="android_frameworks_opt_net_wifi" />
 <project name="leewp14/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="dot-p" />
 
+<remove-project name="android_packages_apps_Camera2" />
+<project name="LineageOS/android_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="lineage-16.0" />
+
 </manifest>
