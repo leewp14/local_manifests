@@ -7,6 +7,4 @@
 <remove-project name="LineageOS/android_system_core" />
 <project name="leewp14/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
 
-<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
-
 </manifest>
