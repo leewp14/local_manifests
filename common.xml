@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remove-project name="LineageOS/android_packages_apps_Backgrounds" />
-<project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" />
-
 <remove-project name="LineageOS/android_bionic" />
 <project path="bionic" name="rINanDO/android_bionic" remote="github" revision="lineage-17.1" />
 
