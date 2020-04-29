@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" groups="pdk" />
+  <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk" />
+
+</manifest>
