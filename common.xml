@@ -2,6 +2,7 @@
 <manifest>
 
 	<project name="LineageOS/android_external_libsamsung-ipc" path="external/libsamsung-ipc" remote="github" revision="cm-14.1" />
+        <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
 
 	<project name="hikuii/android_hardware_ril_samsung-ril" path="hardware/ril/samsung-ril" remote="github" revision="cm-14.1" />
