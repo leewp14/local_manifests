@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="replicant" fetch="https://git.replicant.us/replicant" />
-
 	<project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
-	<project name="hardware_replicant_libsamsung-ipc" path="external/libsamsung-ipc" remote="replicant" revision="replicant-6.0" />
 
 </manifest>
