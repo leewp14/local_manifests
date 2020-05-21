@@ -1,5 +1,5 @@
 local_manifests
 ===============
 
-Local manifests (lineage-17.1) for:-
+Local manifests (croquette) for:-
 - n7000

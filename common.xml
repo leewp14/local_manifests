@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remove-project name="LineageOS/android_bionic" />
-<project path="bionic" name="rINanDO/android_bionic" remote="github" revision="lineage-17.1" />
+<remove-project name="bionic" />
+<project path="bionic" name="hikuii-archive/potato_bionic" remote="github" revision="croquette-release" />
 
 <remove-project name="platform/system/libhwbinder" />
 <project path="system/libhwbinder" name="rINanDO/android_system_libhwbinder" remote="github" revision="lineage-17.1" />
