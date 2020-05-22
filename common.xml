@@ -4,6 +4,9 @@
 <remove-project name="bionic" />
 <project path="bionic" name="hikuii-archive/potato_bionic" remote="github" revision="croquette-release" />
 
+<remove-project name="hardware_potato_interfaces" />
+<project path="hardware/potato/interfaces" name="hikuii-archive/potato_hardware_potato_interfaces" remote="github" revision="croquette-release" />
+
 <remove-project name="platform/system/libhwbinder" />
 <project path="system/libhwbinder" name="rINanDO/android_system_libhwbinder" remote="github" revision="lineage-17.1" />
 
