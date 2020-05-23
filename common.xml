@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="hikuii-archive/potato_frameworks_base" remote="github" revision="baked-release" />
+
 <remove-project name="platform/packages/apps/Camera2" />
 <project path="packages/apps/Camera2" name="hikuii-archive/android_packages_apps_Camera2" remote="github" revision="android9" />
 
