@@ -10,6 +10,9 @@
 <remove-project name="hardware_potato_interfaces" />
 <project path="hardware/potato/interfaces" name="hikuii-archive/potato_hardware_potato_interfaces" remote="github" revision="croquette-release" />
 
+<remove-project name="platform/packages/apps/Camera2" />
+<project path="packages/apps/Camera2" name="hikuii-archive/android_packages_apps_Camera2" remote="github" revision="android10" />
+
 <remove-project name="platform/system/libhwbinder" />
 <project path="system/libhwbinder" name="rINanDO/android_system_libhwbinder" remote="github" revision="lineage-17.1" />
 
