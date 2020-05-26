@@ -1,6 +1,5 @@
 local_manifests
 ===============
 
-Local manifests (lineage-16.0) for:-
+Local manifests (baked) for:-
 - n7000
-- ~~honami~~
