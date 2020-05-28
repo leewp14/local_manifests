@@ -7,4 +7,7 @@
 <remove-project name="platform/packages/apps/Camera2" />
 <project path="packages/apps/Camera2" name="hikuii-archive/android_packages_apps_Camera2" remote="github" revision="android9" />
 
+<remove-project name="vendor_potato" />
+<project path="vendor/potato" name="hikuii-archive/potato_vendor_potato" remote="github" revision="baked-release" />
+
 </manifest>
