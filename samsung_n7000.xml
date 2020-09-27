@@ -4,7 +4,7 @@
 <project name="hikuii/android_device_samsung_n7000" path="device/samsung/n7000" remote="private" revision="lineage-16.0" clone-depth="2147483647" />
 <project name="hikuii/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="private" revision="lineage-16.0" clone-depth="2147483647" />
 <project name="hikuii/android_hardware_samsung" path="hardware/samsung" remote="private" revision="lineage-16.0" clone-depth="2147483647" />
-<project name="hikuii/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="private" revision="lineage-16.0" clone-depth="2147483647" />
+<project name="hikuii/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="private" revision="lineage-16.0-initial" clone-depth="2147483647" />
 
 <project name="hikuii/proprietary_vendor_samsung" path="vendor/samsung" remote="private" revision="lineage-16.0" clone-depth="2147483647" />
 
