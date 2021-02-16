@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- DEVICE COMMON -->
+	<!-- device/samsung/galaxys2-common -->			<project name="hikuii/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
+	<!-- kernel/samsung/smdk4412-->				<project name="hikuii/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="local-githubssh" revision="lineage-16.0-initial" clone-depth="2147483647" />
+
+	<!-- DEVICE N7000 -->
+	<!-- device/samsung/n7000-->				<project name="hikuii/android_device_samsung_n7000" path="device/samsung/n7000" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
+
+</manifest>
