@@ -3,9 +3,15 @@
 
 	<!-- DEVICE COMMON -->
 	<!-- device/samsung/galaxys2-common -->			<project name="hikuii/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
+	<!-- device/samsung/qcom-common -->			<project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" />
+	<!-- device/samsung/trlte-common -->			<project name="hikuii/android_device_samsung_trlte-common" path="device/samsung/trlte-common" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
+	<!-- kernel/samsung/apq8084-->				<project name="hikuii/android_kernel_samsung_apq8084" path="kernel/samsung/apq8084" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
 	<!-- kernel/samsung/smdk4412-->				<project name="hikuii/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="local-githubssh" revision="lineage-16.0-initial" clone-depth="2147483647" />
 
 	<!-- DEVICE N7000 -->
 	<!-- device/samsung/n7000-->				<project name="hikuii/android_device_samsung_n7000" path="device/samsung/n7000" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
+
+	<!-- DEVICE TRLTE -->
+	<!-- device/samsung/trlte-->                            <project name="hikuii/android_device_samsung_trlte" path="device/samsung/trlte" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
 
 </manifest>
