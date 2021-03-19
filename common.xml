@@ -9,6 +9,6 @@
 
 
 	<!-- DEVICE SPECIFICS -->
-
+	<!-- packages/resources/devicesettings --> 		<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
 </manifest>
