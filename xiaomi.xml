@@ -2,6 +2,6 @@
 <manifest>
 
 	<!-- DEVICE COMMON -->
-
+	<!-- vendor/xiaomi -->				<project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="local-gitlab" revision="lineage-15.1" />
 
 </manifest>
