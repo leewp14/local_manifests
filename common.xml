@@ -5,17 +5,9 @@
 	<remote name="local-githubssh" fetch="ssh://git@github.com" />
 
 	<!-- ANDROID SPECIFICS -->
-	<!-- frameworks/base -->			<remove-project name="LineageOS/android_frameworks_base" />
-	<!-- frameworks/base -->			<project name="hikuii/android_frameworks_base" path="frameworks/base" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
-	<!-- packages/apps/WallpaperPicker -->		<remove-project name="LineageOS/android_packages_apps_Backgrounds" />
-	<!-- packages/apps/WallpaperPicker -->		<project name="LineageOS/android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" groups="pdk-fs" />
+
 
 	<!-- DEVICE SPECIFICS -->
-	<!-- hardware/samsung -->			<!-- -->
-	<!-- hardware/samsung -->			<project name="hikuii/android_hardware_samsung" path="hardware/samsung" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
-	<!-- hardware/sony/timekeep -->			<!-- -->
-	<!-- hardware/sony/timekeep -->			<project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" />
-	<!-- vendor/samsung -->				<!-- -->
-	<!-- vendor/samsung -->				<project name="hikuii/proprietary_vendor_samsung" path="vendor/samsung" remote="local-githubssh" revision="lineage-16.0" clone-depth="2147483647" />
+
 
 </manifest>
