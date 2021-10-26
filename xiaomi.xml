@@ -2,7 +2,7 @@
 <manifest>
 
 	<!-- DEVICE COMMON -->
-	<!-- device/xiaomi/msm8996-common-->		<project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" />
+	<!-- device/xiaomi/msm8996-common-->		<project name="hikuii/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="local-githubssh" revision="lineage-15.1" />
 	<!-- kernel/xiaomi/msm8996 -->			<project name="hikuii/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="local-githubssh" revision="lineage-15.1" />
 	<!-- vendor/xiaomi -->				<project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="local-gitlab" revision="lineage-15.1" />
 
