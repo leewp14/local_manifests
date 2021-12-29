@@ -1,6 +1,5 @@
 local_manifests
 ===============
 
-Local manifests (lineage-16.0) for:-
-- n7000
-- ~~honami~~
+Local manifests (lineage-15.1) for:-
+- lithium (Xiaomi, MI MIX)
