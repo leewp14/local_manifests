@@ -1,5 +1,5 @@
 local_manifests
 ===============
 
-Local manifests (lineage-15.1) for:-
+Local manifests (lineage-16.0) for:-
 - lithium (Xiaomi, MI MIX)
