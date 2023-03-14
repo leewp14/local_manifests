@@ -9,4 +9,7 @@
 	<!-- DEVICE LITHIUM -->
 	<!-- device/xiaomi/lithium --> 			<project name="hikuii/android_device_xiaomi_lithium" path="device/xiaomi/lithium" remote="local-githubssh" revision="lineage-16.0" />
 
+	<!-- DEVICE SCORPIO -->
+	<!-- device/xiaomi/scorpio -->			<project name="hikuii/android_device_xiaomi_scorpio" path="device/xiaomi/scorpio" remote="local-githubssh" revision="lineage-16.0" />
+
 </manifest>
