@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- DEVICE COMMON -->
+	<!-- device/xiaomi/msm8996-common-->		<project name="hikuii/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="local-githubssh" revision="lineage-20" />
+	<!-- kernel/xiaomi/msm8996 -->			<project name="hikuii/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="local-githubssh" revision="hikuii-common-v2" />
+	<!-- vendor/xiaomi/msm8996-common -->		<project name="TheMuppets/proprietary_vendor_xiaomi_msm8996-common" path="vendor/xiaomi/msm8996-common" remote="local-github" revision="lineage-20" />
+
+	<!-- DEVICE SCORPIO -->
+	<!-- device/xiaomi/scorpio -->			<project name="hikuii/android_device_xiaomi_scorpio" path="device/xiaomi/scorpio" remote="local-githubssh" revision="lineage-20" />
+	<!-- vendor/xiaomi/scorpio -->			<project name="hikuii/proprietary_vendor_xiaomi_scorpio" path="vendor/xiaomi/scorpio" remote="local-githubssh" revision="lineage-20" />
+
+</manifest>
