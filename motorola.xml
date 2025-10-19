@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- DEVICE COMMON -->
+	<!-- device/motorola/sm8550-common -->		
+	<project name="hikuii/android_device_motorola_sm8550-common" path="device/motorola/sm8550-common" revision="hikuii/crdroid-15.0" remote="local-githubssh" />
+
+	<!-- hardware/motorola -->
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" revision="lineage-22.2" remote="local-github" />
+
+	<!-- kernel/motorola/sm8550 -->
+	<project name="hikuii/android_kernel_motorola_sm8550" path="kernel/motorola/sm8550" revision="hikuii/android-15" remote="local-githubssh" />
+
+	<!-- kernel/motorola/sm8550-devicetrees -->
+	<project name="LineageOS/android_kernel_motorola_sm8550-devicetrees" path="kernel/motorola/sm8550-devicetrees" revision="lineage-22.2" remote="local-github" />
+
+	<!-- kernel/motorola/sm8550-modules -->
+	<project name="LineageOS/android_kernel_motorola_sm8550-modules" path="kernel/motorola/sm8550-modules" revision="lineage-22.2" remote="local-github" />
+
+	<!-- vendor/motorola/sm8550-common -->
+	<project name="TheMuppets/proprietary_vendor_motorola_sm8550-common" path="vendor/motorola/sm8550-common" revision="lineage-22.2" remote="local-github" />
+
+
+	<!-- DEVICE RTWO -->
+	<!-- device/motorola/rtwo -->
+	<project name="hikuii/android_device_motorola_rtwo" path="device/motorola/rtwo" revision="hikuii/crdroid-15.0" remote="local-githubssh" />
+	<!-- vendor/motorola/rtwo -->
+	<project name="TheMuppets/proprietary_vendor_motorola_rtwo" path="vendor/motorola/rtwo" revision="lineage-22.2" remote="local-github" />
+
+</manifest>
