@@ -6,6 +6,11 @@
 	<remote name="local-gitlab" fetch="https://gitlab.com" />
 
 	<!-- ANDROID SPECIFICS -->
+	<!-- track hikuii/android_vendor_aospa -->
+	<remove-project name="AOSPA/android_vendor_aospa" />
+	<project path="vendor/aospa" name="hikuii/android_vendor_aospa" revision="vauxite" remote="local-githubssh" >
+		<linkfile src="build.sh" dest="rom-build.sh" />
+	</project>
 
 
 	<!-- DEVICE SPECIFICS -->
