@@ -25,6 +25,6 @@
 	<!-- device/motorola/rtwo -->
 	<project name="hikuii/android_device_motorola_rtwo" path="device/motorola/rtwo" revision="hikuii/crdroid-15.0" remote="local-githubssh" />
 	<!-- vendor/motorola/rtwo -->
-	<project name="hikuii/proprietary_vendor_motorola_rtwo" path="vendor/motorola/rtwo" revision="hikuii/lineage-22.2" remote="local-githubssh" />
+	<project name="TheMuppets/proprietary_vendor_motorola_rtwo" path="vendor/motorola/rtwo" revision="lineage-22.2" remote="local-github" />
 
 </manifest>
