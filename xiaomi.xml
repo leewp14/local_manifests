@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- DEVICE COMMON -->
+	<!-- kernel/xiaomi/msm8996 -->
+	<project name="hikuii/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" revision="hikuii/android-15" remote="local-githubssh" />
+
+</manifest>
