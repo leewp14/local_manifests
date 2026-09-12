@@ -20,6 +20,6 @@
 	<project name="Rocky7842/android_device_xiaomi_xmsirius" path="device/xiaomi/xmsirius" revision="crdroid-15.0" remote="local-github" />
 
 	<!-- vendor/xiaomi/xmsirius -->
-	<project name="Rocky7842/proprietary_vendor_xiaomi_xmsirius" path="vendor/xiaomi/xmsirius" revision="lineage-22.2" remote="local-github" />
+	<project name="Rocky7842/proprietary_vendor_xiaomi_xmsirius" path="vendor/xiaomi/xmsirius" revision="lineage-23.2" remote="local-github" />
 
 </manifest>
