@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- DEVICE COMMON -->
+	<!-- device/xiaomi/sdm710-common -->		
+	<project name="Rocky7842/android_device_xiaomi_sdm710-common" path="device/xiaomi/sdm710-common" revision="crdroid-15.0" remote="local-github" />
+
+	<!-- hardware/xiaomi -->
+	<project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-22.2" remote="local-github" />
+
+	<!-- kernel/xiaomi/sdm710 -->
+	<project name="Rocky7842/android_kernel_xiaomi_sdm710" path="kernel/xiaomi/sdm710" revision="lineage-22.2" remote="local-github" />
+
+	<!-- vendor/motorola/sdm710-common -->
+	<project name="Rocky7842/proprietary_vendor_xiaomi_sdm710-common" path="vendor/xiaomi/sdm710-common" revision="lineage-22.2" remote="local-github" />
+
+
+	<!-- DEVICE RTWO -->
+	<!-- device/xiaomi/xmsirius -->
+	<project name="Rocky7842/android_device_xiaomi_xmsirius" path="device/xiaomi/xmsirius" revision="crdroid-15.0" remote="local-github" />
+
+	<!-- vendor/xiaomi/xmsirius -->
+	<project name="Rocky7842/proprietary_vendor_xiaomi_xmsirius" path="vendor/xiaomi/xmsirius" revision="lineage-22.2" remote="local-github" />
+
+</manifest>
