@@ -9,7 +9,7 @@
 	<project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-22.2" remote="local-github" />
 
 	<!-- kernel/xiaomi/sdm710 -->
-	<project name="Rocky7842/android_kernel_xiaomi_sdm710" path="kernel/xiaomi/sdm710" revision="lineage-22.2" remote="local-github" />
+	<project name="hikuii/android_kernel_xiaomi_sdm710" path="kernel/xiaomi/sdm710" revision="hikuii/android-15" remote="local-githubssh" />
 
 	<!-- vendor/motorola/sdm710-common -->
 	<project name="Rocky7842/proprietary_vendor_xiaomi_sdm710-common" path="vendor/xiaomi/sdm710-common" revision="lineage-22.2" remote="local-github" />
